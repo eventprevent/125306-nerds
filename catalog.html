@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Техномарт</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <div class="header-nav clearfix">
+          <div class="index-logo">
+            <a href="index.ntml">
+              <img src="img/index-logo.png" width="140" alt="Nerd's">
+            </a>
+          </div>
+          <nav class="main-navigation">
+            <ul>
+              <li>
+                <a href="#">Студия</a>
+              </li>
+              <li>
+                <a href="#">Клиенты</a>
+              </li>
+              <li>
+                <a href="#">Магазин</a>
+              </li>
+              <li>
+                <a href="#">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header-cart">
+            <a href="#">Корзина</a>
+          </div>
+        </div>
+        <h1>Добро пожаловать в магазин готовых макетов</h1>
+      </div>
+    </header>
+    <main>
+      <div class="container clearfix">
+        <div class="left-column">
+          <form class="filter-form" action="https://echo.htmlacademy.ru" method="post">
+            <fieldset>
+              <legend>Стоимость:</legend>
+              <div class="range-controls">
+                <div class="scale"></div>
+                <div class="toggle min-toggle"></div>
+                <div class="toggle max-toggle"></div>
+              </div>
+              <div class="price-controls">
+                <span>От</span> <input class="min-price" type="text" value="0">
+                <span>До</span> <input class="max-price" type="text" value="15000">
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend>Сетка:</legend>
+              <div class="filter-item">
+                <input type="radio" name="grid" id="radio-1" checked>
+                <label for="radio-1">Адаптированная</label>
+              </div>
+                <input type="radio" name="grid" id="radio-2">
+                <label for="radio-2">Фиксированная</label>
+              <div class="filter-item">
+                <input type="radio" name="grid" id="radio-3">
+                <label for="radio-3">Резиновая</label>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend>Особенности:</legend>
+              <div class="filter-item">
+                <input type="checkbox" name="feature-1" id="choice-1" checked>
+                <label for="choice-1">Слайдер</label>
+              </div>
+                <input type="checkbox" name="feature-1" id="choice-2">
+                <label for="choice-2">Блок преимуществ</label>
+              <div class="filter-item">
+                <input type="checkbox" name="feature-1" id="choice-3" checked>
+                <label for="choice-3">Новости</label>
+              </div>
+                <input type="checkbox" name="feature-1" id="choice-4">
+                <label for="choice-4">Галерея</label>
+              <div class="filter-item">
+                <input type="checkbox" name="feature-1" id="choice-5">
+                <label for="choice-5">Корзина</label>
+              </div>
+              <!-- type="submit"? -->
+              <button class="btn" type="submit">Показать</button>
+            </fieldset>
+          </form>
+        </div>
+        <div class="right-column">
+          <div class="sort-block">
+            Сортировать:
+            <ul class="sort-factor">
+              <li>
+                <a href="#">По цене</a>
+              </li>
+              <li>
+                <a href="#">По типу</a>
+              </li>
+              <li>
+                <a href="#">По функционалу</a>
+              </li>
+            </ul>
+            <ul class="regulation">
+              <li>
+                <a href="#">убыв</a>
+              </li>
+              <li>
+                <a href="#">возр</a>
+              </li>
+            </ul>
+          </div>
+          <div class="item-catalog clearfix">
+            <article class="item">
+              <div class="window-style">
+                <ul>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+              <div class="item-image">
+                <div class="item-about">
+                  <a class="item-title" href="#">
+                    Aviator
+                  </a>
+                  <p>
+                    Одностраничный макет
+                    с авторским дизайном
+                  </p>
+                  <a class="btn btn-red" href="#">8000 р.</a>
+                </div>
+                <div class="item-site-1">
+
+                </div>
+              </div>
+            </article>
+            <article class="item">
+              <div class="window-style">
+                <ul>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+              <div class="item-image">
+                <div class="item-about">
+                  <<a class="item-title" href="#">
+                    Sunset
+                  </a>
+                  <p>
+                    Интернет-магазин
+                    с личным кабинетом
+                  </p>
+                  <a class="btn btn-red" href="#">11000 р.</a>
+                </div>
+                <div class="item-site-2">
+
+                </div>
+              </div>
+            </article>
+            <article class="item">
+              <div class="window-style">
+                <ul>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+              <div class="item-image">
+                <div class="item-about">
+                  <a class="item-title" href="#">
+                    Forte
+                  </a>
+                  <p>
+                    Отличный макет
+                    для личного блога
+                  </p>
+                  <a class="btn btn-red" href="#">5000 р.</a>
+                </div>
+                <div class="item-site-3">
+
+                </div>
+              </div>
+            </article>
+            <article class="item">
+              <div class="window-style">
+                <ul>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+              <div class="item-image">
+                <div class="item-about">
+                  <a class="item-title" href="#">
+                    Modern Organic Thai
+                  </a>
+                  <p>
+                    Сайт для ресторана
+                    быстрого питания
+                  </p>
+                  <a class="btn btn-red" href="#">12000 р.</a>
+                </div>
+                <div class="item-site-4">
+
+                </div>
+              </div>
+            </article>
+            <article class="item">
+              <div class="window-style">
+                <ul>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+              <div class="item-image">
+                <div class="item-about">
+                  <a class="item-title" href="#">
+                    Avenue
+                  </a>
+                  <p>
+                    Макет для блога
+                    о путешествиях
+                  </p>
+                  <a class="btn btn-red" href="#">8000 р.</a>
+                </div>
+                <div class="item-site-5">
+
+                </div>
+              </div>
+            </article>
+            <article class="item">
+              <div class="window-style">
+                <ul>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+              <div class="item-image">
+                <div class="item-about">
+                  <a class="item-title" href="#">
+                    Dovetail
+                  </a>
+                  <p>
+                    Интернет-магазин
+                    с галереей товаров
+                  </p>
+                  <a class="btn btn-red" href="#">14000 р.</a>
+                </div>
+                <div class="item-site-6">
+
+                </div>
+              </div>
+            </article>
+          </div>
+          <ul class="pagination">
+            <li class="active">
+              1
+            </li>
+            <li>
+              <a class="btn" href="#">2</a>
+            </li>
+            <li>
+              <a class="btn" href="#">3</a>
+            </li>
+            <li>
+              <a class="btn" href="#">Следующая</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="map">
+        <div class="container">
+          <div class="map-address">
+            <h3>Nёrds design studio</h3>
+            <p>
+              191186, Санкт-Петербург,
+              ул. Б. Конюшенная, д. 19/8
+            </p>
+            <p>тел. +7 (812) 275-75-75</p>
+            <a class="btn red-btn" href="#">Напишите нам</a>
+          </div>
+          <div class="map-marker">
+            <img src="img/map-marker.png" width="231">
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="social-block">
+          <ul>
+            <li>
+              <a class="social social-vk" href="#">vk</a>
+            </li>
+            <li>
+              <a class="social social-fb" href="#">fb</a>
+            </li>
+            <li>
+              <a class="social social-inst" href="#">inst</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-text">
+          <div class="slogan">
+            Давайте дружить, это выгодно!
+          </div>
+          <p>
+            Скидка 10% для друзей из социальных сетей.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
