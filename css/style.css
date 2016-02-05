@@ -1,0 +1,172 @@
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #283136;
+}
+
+h1 {
+  font-size: 40px;
+  color: #000000;
+  line-height: 52px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 18px;
+  color: #000000;
+}
+
+.container {
+  width: 880px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.index-logo {
+  float: left;
+  width: 140px;
+}
+
+.main-navigation {
+  float: left;
+  width: 460px;
+  margin-left: 160px;
+}
+
+.header-cart {
+  float: right;
+  width: 100px;
+}
+
+.slide-block {
+  margin-top: 35px;
+  min-height: 310px;
+}
+
+.slide {
+  display: none;
+}
+
+.slide-block > .active {
+  display: block;
+}
+
+.slide-text {
+  float: left;
+  width: 470px;
+}
+
+.slide-image {
+  float: right;
+}
+
+.features {
+  padding: 80px 0;
+}
+
+.features-item {
+  float: left;
+  width: 240px;
+  margin-right: 80px;
+}
+
+.features-item:last-child {
+  margin-right: 0;
+}
+
+.about-company {
+  padding: 70px 0;
+}
+
+.about-top-block {
+  margin-bottom: 40px;
+}
+
+.left-content {
+  float: left;
+  width: 620px;
+}
+
+.right-content {
+  float: right;
+  width: 240px;
+}
+
+.portfolio {
+  padding-bottom: 85px;
+}
+
+.portfolio-item {
+  float: left;
+  width: 230px;
+  margin-right: 90px;
+}
+
+.portfolio-item:last-child {
+  margin-right: 0;
+}
+
+.map {
+  padding: 90px 0;
+}
+
+.map-address {
+  width: 250px;
+}
+
+.social-block {
+  float: left;
+  width: 240px;
+}
+
+.footer-text {
+  float: right;
+  width: 560px;
+}
+
+/*===================================CATALOG====================================*/
+
+.header-title {
+  margin: 0;
+  padding-top: 70px;
+  padding-bottom: 85px;
+}
+
+.left-column {
+  float: left;
+  width: 240px;
+  padding-top: 75px;
+}
+
+.filter-section {
+  margin-bottom: 45px;
+}
+
+.right-column {
+  float: right;
+  width: 560px;
+  padding-top: 75px;
+}
+
+.item {
+  float: left;
+  width: 240px;
+  margin-right: 80px;
+  margin-bottom: 80px;
+}
+
+.item:nth-child(2n) {
+  margin-right: 0;
+}
+
+.item-about {
+  width: 200px;
+  height: 200px;
+}
