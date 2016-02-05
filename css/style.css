@@ -170,3 +170,22 @@ h2 {
   width: 200px;
   height: 200px;
 }
+
+.write-us {
+  width: 460px;
+  padding: 50px 80px;
+}
+
+.write-us label {
+  display: block;
+}
+
+.form-element {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.write-us textarea {
+  display: block;
+  margin-bottom: 50px;
+}
